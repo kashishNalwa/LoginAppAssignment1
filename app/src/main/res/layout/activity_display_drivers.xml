@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.click_labs.kashishnalwa.loginappassignment.Activity.DisplayDrivers">
+
+    <include layout="@layout/custom_action_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_above="@+id/add_driver_btn"
+            android:layout_width="match_parent"
+            android:background="@color/used_gray1"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/add_driver_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_driver_btn"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_17"
+            android:background="@android:color/holo_red_dark"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

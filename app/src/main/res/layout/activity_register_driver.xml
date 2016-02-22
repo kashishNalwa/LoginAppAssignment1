@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/used_gray1"
+    android:orientation="vertical"
+    tools:context=".Activity.RegisterDriver">
+
+    <include layout="@layout/custom_action_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/register_enter_name_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_15"
+                android:background="@drawable/edit_text_sel"
+                android:drawableLeft="@drawable/icon_user"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:hint="@string/enter_name_et"
+                android:maxLines="1"
+                android:minHeight="@dimen/min_et_height" />
+
+            <EditText
+                android:id="@+id/register_enter_contact_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_15"
+                android:background="@drawable/edit_text_sel"
+                android:drawableLeft="@drawable/icon_mobile"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:hint="@string/enter_contact_et"
+                android:inputType="number"
+                android:maxLength="10"
+                android:minHeight="@dimen/min_et_height" />
+
+            <EditText
+                android:id="@+id/register_enter_email_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_15"
+                android:background="@drawable/edit_text_sel"
+                android:drawableLeft="@drawable/icon_mail"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:hint="@string/email_et"
+                android:minHeight="@dimen/min_et_height" />
+
+            <EditText
+                android:id="@+id/register_enter_address_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_15"
+                android:background="@drawable/edit_text_sel"
+                android:drawableLeft="@drawable/icon_password"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:hint="@string/address_et"
+                android:minHeight="@dimen/min_et_height" />
+
+            <Button
+                android:id="@+id/register_add_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/padding_15"
+                android:background="@android:color/holo_red_dark"
+                android:text="@string/add_btn"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_17" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

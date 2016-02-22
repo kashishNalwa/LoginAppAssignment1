@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LoginAppAssignment</string>
+    <string name="splash_screen_tv">Login App Assignment</string>
+    <string name="signup_btn">SignUp</string>
+    <string name="login_btn">LogIn</string>
+    <string name="email_et">Enter e-mail</string>
+    <string name="password_et">Enter password</string>
+    <string name="enter_name_et">Enter Name</string>
+    <string name="add_driver_btn">Add Drivers</string>
+    <string name="add_btn">Add</string>
+    <string name="edit_add_btn">Edit</string>
+    <string name="edit_delete_btn">Delete</string>
+    <string name="edit_update_btn">Update</string>
+    <string name="show_btn">Show</string>
+    <string name="address_et">Enter Address</string>
+    <string name="enter_contact_et">Enter Mobile No.</string>
+    <string name="forgot_password_text_view">Forgot Password?</string>
+    <string name="driver_name_tv">Name  :</string>
+    <string name="driver_enter_name_tv">Driver Name</string>
+    <string name="driver_address_tv">Address  :</string>
+    <string name="driver_enter_address_tv">Driver Address</string>
+    <string name="dialog_title">Title</string>
+    <string name="dialog_message">Supplier Logged In</string>
+
+</resources>
